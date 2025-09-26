@@ -1,4 +1,4 @@
-def partition(l, r, nums):
+def partition(l, r, nums):     #branch pactice
     # Last element will be the pivot and the first element the pointer
     pivot, ptr = nums[r], l
     for i in range(l, r):
