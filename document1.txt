@@ -11,6 +11,7 @@ def partition(l, r, nums):
     return ptr
  pass
 
+
 # With quicksort() function, we will be utilizing the above code to obtain the pointer
 # at which the left values are all smaller than the number at pointer index and vice versa
 # for the right values.
@@ -35,4 +36,7 @@ result = [1, 2, 2, 4, 4, 5, 6, 6, 7, 8]
 # As you can see, it works for duplicates too
 print(quicksort(0, len(example)-1, example))
 
-## branch pactice
+
+
+# branch pactice
+
